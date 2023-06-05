@@ -38,7 +38,7 @@ class NQueenSolver:
  
             board[i][col] = 1
  
-            if self.solveNQUtil(board, col + 1) == True:
+            if self.solveNQUtillthis(board, col + 1) == True:
                 return True
  
             
